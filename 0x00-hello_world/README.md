@@ -13,3 +13,7 @@ compile to assembly
 ## 3-name
 
 name compiled executable
+
+## 4-puts.c
+
+print using puts
