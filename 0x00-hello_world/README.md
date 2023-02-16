@@ -9,3 +9,7 @@ compile a file
 ## 2-assembler
 
 compile to assembly
+
+## 3-name
+
+name compiled executable
