@@ -25,3 +25,7 @@ print using printf
 ## 6-size.c
 
 print sizeof various types
+
+## 100-intel
+
+generate assembly in intel syntax
