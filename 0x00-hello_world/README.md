@@ -17,3 +17,7 @@ name compiled executable
 ## 4-puts.c
 
 print using puts
+
+## 5-printf.c
+
+print using printf
