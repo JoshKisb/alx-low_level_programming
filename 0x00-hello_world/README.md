@@ -29,3 +29,7 @@ print sizeof various types
 ## 100-intel
 
 generate assembly in intel syntax
+
+## 101-quote.c
+
+print without printf or puts
