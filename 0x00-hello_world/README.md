@@ -21,3 +21,7 @@ print using puts
 ## 5-printf.c
 
 print using printf
+
+## 6-size.c
+
+print sizeof various types
