@@ -8,4 +8,8 @@ analyze last digit of random num
 
 ## 2-print_alphabet.c
 
-print the alphabet
+print the lowercase alphabet
+
+## 3-print_alphabets.c
+
+print the alphabet lower and uppercase
