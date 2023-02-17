@@ -45,3 +45,7 @@ print non repeating 2 digit number combos
 ## 101-print_comb4.c
 
 print 3 digit number combos
+
+## 102-print_comb5.c
+
+print 2 2 digit number combos
