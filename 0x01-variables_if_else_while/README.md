@@ -13,3 +13,7 @@ print the lowercase alphabet
 ## 3-print_alphabets.c
 
 print the alphabet lower and uppercase
+
+## 4-print_alphabt.c
+
+print the lowercase alphabet except q and e
