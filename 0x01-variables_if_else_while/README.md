@@ -33,3 +33,7 @@ ptint the alphabet in reverse
 ## 8-print_base16.c
 
 print the numbers of base 16
+
+## 9-print_comb.c
+
+print the numbers seperated by comma
