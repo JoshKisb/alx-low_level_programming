@@ -25,3 +25,7 @@ print numbers
 ## 6-print_numberz.c
 
 print ascii numbers
+
+## 7-print_tebahpla.c
+
+ptint the alphabet in reverse
