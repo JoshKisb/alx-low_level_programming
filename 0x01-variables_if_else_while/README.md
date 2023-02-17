@@ -21,3 +21,7 @@ print the lowercase alphabet except q and e
 ## 5-print_numbers.c
 
 print numbers
+
+## 6-print_numberz.c
+
+print ascii numbers
