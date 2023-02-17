@@ -36,4 +36,8 @@ print the numbers of base 16
 
 ## 9-print_comb.c
 
-print the numbers seperated by comma
+rint the numbers seperated by comma
+
+## 100-print_comb3.c
+
+print non repeating 2 digit number combos
