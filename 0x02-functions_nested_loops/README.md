@@ -9,3 +9,7 @@ print the alphabet using _putchar
 ## 2-print_alphabet_x10.c
 
 print the alphabet 10 times
+
+## 3-islower.c
+
+print if character is lowercase
