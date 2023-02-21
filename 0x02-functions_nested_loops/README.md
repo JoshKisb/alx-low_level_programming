@@ -37,3 +37,7 @@ print every minute of the day
 ## 9-times_table.c
 
 print the 9 times table
+
+## 10-add.c
+
+add 2 numbers
