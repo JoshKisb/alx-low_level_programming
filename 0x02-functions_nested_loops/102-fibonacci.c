@@ -12,7 +12,7 @@ int main(void)
 
 	printf("1, 2");
 
-	while (count <= 50)
+	while (count < 50)
 	{
 		tmp = curr;
 		curr += prev;
