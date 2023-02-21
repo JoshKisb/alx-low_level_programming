@@ -33,3 +33,7 @@ print n return the last digit of a number
 ## 8-24_hours.c
 
 print every minute of the day
+
+## 9-times_table.c
+
+print the 9 times table
