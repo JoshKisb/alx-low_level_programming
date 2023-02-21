@@ -17,3 +17,7 @@ print if character is lowercase
 ## 4-isalpha.c
 
 print if charcter is a letter
+
+## 5-sign.c
+
+print sign of a number
