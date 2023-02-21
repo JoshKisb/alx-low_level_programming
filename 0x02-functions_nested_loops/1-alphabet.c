@@ -1,13 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - print the alphabet
  *
  * Description: print the ascii alphabet using _putchar
- * Return: 0 (Success)
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int letter = 97;
+
+	while (letter < 123)
+		_putchar(letter++);
+
+	_putchar('\n');
 }
