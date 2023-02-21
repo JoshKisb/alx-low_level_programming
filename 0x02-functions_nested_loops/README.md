@@ -5,3 +5,7 @@ print using _putchar
 ## 1-alphabet.c
 
 print the alphabet using _putchar
+
+## 2-print_alphabet_x10.c
+
+print the alphabet 10 times
