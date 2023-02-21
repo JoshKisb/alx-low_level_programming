@@ -25,3 +25,7 @@ print sign of a number
 ## 6-abs.c
 
 compute the absolute value of an integer
+
+## 7-print_last_digit.c
+
+print n return the last digit of a number
