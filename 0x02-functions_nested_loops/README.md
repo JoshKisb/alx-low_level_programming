@@ -21,3 +21,7 @@ print if charcter is a letter
 ## 5-sign.c
 
 print sign of a number
+
+## 6-abs.c
+
+compute the absolute value of an integer
