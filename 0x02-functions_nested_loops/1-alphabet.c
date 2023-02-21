@@ -8,12 +8,6 @@
  */
 int main(void)
 {
-	int letter = 97;
-
-	while (letter < 123)
-		_putchar(letter++);
-
-	_putchar('\n');
-
+	print_alphabet();
 	return (0);
 }
