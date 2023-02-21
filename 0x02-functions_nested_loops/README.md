@@ -29,3 +29,7 @@ compute the absolute value of an integer
 ## 7-print_last_digit.c
 
 print n return the last digit of a number
+
+## 8-24_hours.c
+
+print every minute of the day
