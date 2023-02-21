@@ -45,3 +45,7 @@ add 2 numbers
 ## 11-print_to_98.c
 
 print numbers till 98
+
+## 100-times_table.c
+
+print the times table to a limit
