@@ -13,3 +13,7 @@ print the alphabet 10 times
 ## 3-islower.c
 
 print if character is lowercase
+
+## 4-isalpha.c
+
+print if charcter is a letter
