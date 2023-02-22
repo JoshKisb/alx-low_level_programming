@@ -8,36 +8,36 @@
  */
 int main(void)
 {
-	long curr_fib, prev_fib, temp_fib;
-	long curr_fib_high, curr_fib_low;
-	long prev_fib_high, prev_fib_low, i;
+	unsigned long current_fib, previous_fib, temp_fib;
+	unsigned long current_fib_high, current_fib_low;
+	unsigned long previous_fib_high, previous_fib_low, i;
 
-	prev_fib = 1;
-	curr_fib = 2;
+	previous_fib = 1;
+	current_fib = 2;
 
-	printf("%lu", prev_fib);
+	printf("%ld", previous_fib);
 
 	for (i = 1; i < 91; i++)
 	{
-		printf(", %lu", curr_fib);
-		temp_fib = curr_fib;
-		curr_fib = prev_fib + curr_fib;
-		prev_fib = temp_fib;
+		printf(", %lu", current_fib);
+		temp_fib = current_fib;
+		current_fib = previous_fib + current_fib;
+		previous_fib = temp_fib;
 	}
 
-	prev_fib_high = prev_fib / 1000000000;
-	prev_fib_low = prev_fib % 1000000000;
-	curr_fib_high = curr_fib / 1000000000;
-	curr_fib_low = curr_fib % 1000000000;
+	previous_fib_high = previous_fib / 1000000000;
+	previous_fib_low = previous_fib % 1000000000;
+	current_fib_high = current_fib / 1000000000;
+	current_fib_low = current_fib % 1000000000;
 
 	for (i = 92; i < 99; ++i)
 	{
-		printf(", %lu", curr_fib_high + (curr_fib_low / 1000000000));
-		printf("%09lu", curr_fib_low % 1000000000);
-		curr_fib_high = curr_fib_high + prev_fib_high;
-		prev_fib_high = curr_fib_high - prev_fib_high;
-		curr_fib_low = curr_fib_low + prev_fib_low;
-		prev_fib_low = curr_fib_low - prev_fib_low;
+		printf(", %lu", current_fib_high + (current_fib_low / 1000000000));
+		printf("%09lu", current_fib_low % 1000000000);
+		current_fib_high = current_fib_high + previous_fib_high;
+		previous_fib_high = current_fib_high - previous_fib_high;
+		current_fib_low = current_fib_low + previous_fib_low;
+		previous_fib_low = current_fib_low - previous_fib_low;
 	}
 
 	printf("\n");
