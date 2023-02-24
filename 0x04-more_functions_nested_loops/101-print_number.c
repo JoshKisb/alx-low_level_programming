@@ -29,12 +29,10 @@ void print_number(int n)
 		}
 
 		rem = rem % div;
-		if (div >= 10)
-			_putchar('0' + digit);
-		if (div <= 10)
-			_putchar('0' + rem);
 
+		if (div >= 1)
+			_putchar('0' + digit);
 
 		div /= 10;
-	} while (div >= 10);
+	} while (div >= 1);
 }
