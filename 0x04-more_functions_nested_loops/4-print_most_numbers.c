@@ -13,7 +13,8 @@ void print_most_numbers(void)
 	while (letter <= '9')
 	{
 		if (letter != '2' && letter != '4')
-			_putchar(letter++);
+			_putchar(letter);
+		letter++;
 	}
 
 	_putchar('\n');
