@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <limits.h>
 /**
  * main - check the code
  *
@@ -19,5 +19,8 @@ int main(void)
     _putchar('\n');
     print_number(3);
     _putchar('\n');
+	printf("INT_MIN: %d\n", INT_MIN);
+	print_number(INT_MIN);
+	_putchar('\n');
     return (0);
 }

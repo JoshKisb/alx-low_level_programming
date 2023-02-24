@@ -9,7 +9,7 @@
  */
 void print_number(int n)
 {
-	int rem = n, digit, div = 1;
+	int rem = n, digit, div = 10;
 
 	/* absolute value for negatives */
 	if (rem < 0)
@@ -22,6 +22,9 @@ void print_number(int n)
 	do {
 		digit = rem / div;
 
+		if (digit < 0)
+			digit = -digit;
+
 		while (digit > 9)
 		{
 			digit = digit / 10;
@@ -30,7 +33,7 @@ void print_number(int n)
 
 		rem = rem % div;
 
-		if (div >= 1)
+		if (div >= 1 && !(div == 10 && digit == 0))
 			_putchar('0' + digit);
 
 		div /= 10;
