@@ -5,3 +5,7 @@ update pointer value
 ## 1-swap.c
 
 swap value between vars 
+
+## 2-strlen.c
+
+count chars in str
