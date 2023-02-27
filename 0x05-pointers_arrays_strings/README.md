@@ -13,3 +13,7 @@ count chars in str
 ## 3-puts.c
 
 print string
+
+## 4-print_rev.c
+
+print string in reverse
