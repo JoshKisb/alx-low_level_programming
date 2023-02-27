@@ -33,3 +33,7 @@ print half the string
 ## 8-print_array.c
 
 print an array
+
+## 9-strcpy.c
+
+copy a string
