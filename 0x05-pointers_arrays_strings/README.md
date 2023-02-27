@@ -25,3 +25,7 @@ reverse a string
 ## 6-puts2.c
 
 print every other char
+
+## 7-puts_half.c
+
+print half the string
