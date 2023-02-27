@@ -17,3 +17,7 @@ print string
 ## 4-print_rev.c
 
 print string in reverse
+
+## 5-rev_string.c
+
+reverse a string
