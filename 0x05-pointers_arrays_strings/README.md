@@ -29,3 +29,7 @@ print every other char
 ## 7-puts_half.c
 
 print half the string
+
+## 8-print_array.c
+
+print an array
