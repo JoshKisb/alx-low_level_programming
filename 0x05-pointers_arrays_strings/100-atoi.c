@@ -35,5 +35,8 @@ int _atoi(char *s)
 		s++;
 	}
 
-	return (num * sign);
+	if (sign == -1)
+		num = -num;
+
+	return (num);
 }
