@@ -18,6 +18,7 @@ int _atoi(char *s)
 			if (!start)
 			{
 				num = (*s) - '0';
+				num *= sign;
 				start = 1;
 			}
 			else
@@ -34,9 +35,6 @@ int _atoi(char *s)
 
 		s++;
 	}
-
-	if (sign == -1)
-		num = -num;
 
 	return (num);
 }
