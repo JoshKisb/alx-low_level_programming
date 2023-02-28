@@ -17,14 +17,13 @@ int _atoi(char *s)
 		{
 			if (!start)
 			{
-				num = (*s) - '0';
-				num *= sign;
+				num = ((*s) - '0') * sign;
 				start = 1;
 			}
 			else
 			{
 				num *= 10;
-				num += (*s) - '0';
+				num += ((*s) - '0') * sign;
 			}
 		}
 		if (start && (*s < '0' || *s > '9'))
