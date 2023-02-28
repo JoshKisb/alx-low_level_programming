@@ -37,3 +37,7 @@ print an array
 ## 9-strcpy.c
 
 copy a string
+
+## 100-atoi.c
+
+string to number
