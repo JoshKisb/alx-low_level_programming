@@ -11,10 +11,11 @@
  */
 int main(void)
 {
-	srand(time(NULL));
 	int checksum = 0, ch;
 	char str[100] = "";
 	int length = 0;
+
+	srand(time(NULL));
 
 	while (TARGET_CHECKSUM - checksum > 120)
 	{
