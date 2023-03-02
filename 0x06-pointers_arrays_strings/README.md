@@ -9,3 +9,7 @@ concat to str with limit
 ## 2-strncpy.c
 
 copy str with limit
+
+## 3-strcmp.c
+
+compare strings
