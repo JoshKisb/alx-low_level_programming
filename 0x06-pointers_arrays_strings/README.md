@@ -25,3 +25,7 @@ convert to uppercase
 ## 6-cap_string.c
 
 capitalize a string
+
+## 7-leet.c
+
+convert to leet speak
