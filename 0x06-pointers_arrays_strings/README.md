@@ -21,3 +21,7 @@ reverse an array
 ## 5-string_toupper.c
 
 convert to uppercase
+
+## 6-cap_string.c
+
+capitalize a string
