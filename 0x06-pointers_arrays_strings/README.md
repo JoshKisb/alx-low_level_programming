@@ -17,3 +17,7 @@ compare strings
 ## 4-rev_array.c
 
 reverse an array
+
+## 5-string_toupper.c
+
+convert to uppercase
