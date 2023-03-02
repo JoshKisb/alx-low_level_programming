@@ -5,3 +5,7 @@ conacat to string
 ## 1-strncat.c
 
 concat to str with limit
+
+## 2-strncpy.c
+
+copy str with limit
