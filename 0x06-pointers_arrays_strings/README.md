@@ -29,3 +29,7 @@ capitalize a string
 ## 7-leet.c
 
 convert to leet speak
+
+## 100-rot13.c
+
+rot 13 encrypt
