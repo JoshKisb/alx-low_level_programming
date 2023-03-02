@@ -13,3 +13,7 @@ copy str with limit
 ## 3-strcmp.c
 
 compare strings
+
+## 4-rev_array.c
+
+reverse an array
