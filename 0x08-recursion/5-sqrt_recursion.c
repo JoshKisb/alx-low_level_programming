@@ -2,8 +2,8 @@
 
 
 /**
- * guess - try guess the sqrt
- * @a:high
+ * sqrt_search - try guess the sqrt
+ * @x: The guess
  * @n: The number
  *
  * Return: int
